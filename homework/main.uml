@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>todolist.main</OriginalElement>
+  <nodes>
+    <node x="2107.5318627450984" y="23.0">todolist.ui.panel.SearchPanel</node>
+    <node x="21.5" y="158.0">todolist.ui.button.ExitButton</node>
+    <node x="1739.5" y="158.0">todolist.ui.button.EditButton</node>
+    <node x="68.78186274509835" y="0.0">todolist.ui.util.FileTool</node>
+    <node x="1491.7818627450984" y="23.0">todolist.ui.panel.AddTaskPanel</node>
+    <node x="1108.6568627450984" y="158.0">todolist.ui.button.DeleteButton</node>
+    <node x="1073.375" y="462.0">todolist.ui.ToDoList</node>
+    <node x="1347.5" y="158.0">todolist.ui.button.AddButton</node>
+    <node x="826.5" y="158.0">todolist.ui.button.TopButton</node>
+    <node x="1877.5318627450984" y="23.0">todolist.ui.panel.EditTaskPanel</node>
+    <node x="211.5" y="158.0">todolist.ui.button.ImportButton</node>
+    <node x="1080.625" y="657.0">todolist.main.Main</node>
+    <node x="420.5" y="158.0">todolist.ui.button.SaveButton</node>
+    <node x="1541.5" y="158.0">todolist.ui.button.HelpButton</node>
+    <node x="920.375" y="300.0">todolist.ui.panel.ButtonPanel</node>
+    <node x="616.5" y="158.0">todolist.ui.button.OutputButton</node>
+    <node x="1120.375" y="300.0">todolist.ui.util.DragDropRowTableUI</node>
+    <node x="1942.0" y="158.0">todolist.ui.button.SearchButton</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="todolist.ui.panel.ButtonPanel" target="todolist.ui.button.TopButton">
+      <point x="-9.0" y="-26.0" />
+      <point x="1001.375" y="230.0" />
+      <point x="955.5" y="230.0" />
+      <point x="43.0" y="26.0" />
+    </edge>
+    <edge source="todolist.ui.panel.ButtonPanel" target="todolist.ui.button.ExitButton">
+      <point x="-81.0" y="-26.0" />
+      <point x="929.375" y="270.0" />
+      <point x="149.0" y="270.0" />
+      <point x="42.5" y="26.0" />
+    </edge>
+    <edge source="todolist.ui.ToDoList" target="todolist.ui.panel.ButtonPanel">
+      <point x="-39.647058823529505" y="-72.5" />
+      <point x="1202.2279411764705" y="382.0" />
+      <point x="965.375" y="382.0" />
+      <point x="-45.0" y="26.0" />
+    </edge>
+    <edge source="todolist.ui.panel.ButtonPanel" target="todolist.ui.button.ImportButton">
+      <point x="-63.0" y="-26.0" />
+      <point x="947.375" y="260.0" />
+      <point x="353.25" y="260.0" />
+      <point x="47.25" y="26.0" />
+    </edge>
+    <edge source="todolist.ui.button.SearchButton" target="todolist.ui.ToDoList">
+      <point x="47.0" y="26.0" />
+      <point x="2083.0" y="422.0" />
+      <point x="1360.8161764705883" y="422.0" />
+      <point x="118.94117647058829" y="-72.5" />
+    </edge>
+    <edge source="todolist.ui.button.ImportButton" target="todolist.ui.ToDoList">
+      <point x="-47.25" y="26.0" />
+      <point x="258.75" y="422.0" />
+      <point x="1122.933823529412" y="422.0" />
+      <point x="-118.94117647058806" y="-72.5" />
+    </edge>
+    <edge source="todolist.ui.button.SearchButton" target="todolist.ui.panel.SearchPanel">
+      <point x="0.0" y="-26.0" />
+      <point x="2036.0" y="138.0" />
+      <point x="2152.5318627450984" y="138.0" />
+      <point x="-45.0" y="26.0" />
+    </edge>
+    <edge source="todolist.ui.button.ExitButton" target="todolist.ui.util.FileTool">
+      <point x="0.0" y="-26.0" />
+      <point x="106.5" y="138.0" />
+      <point x="187.94852941176487" y="138.0" />
+      <point x="-23.833333333333485" y="49.0" />
+    </edge>
+    <edge source="todolist.ui.button.OutputButton" target="todolist.ui.util.FileTool">
+      <point x="0.0" y="-26.0" />
+      <point x="711.5" y="118.0" />
+      <point x="330.94852941176487" y="118.0" />
+      <point x="119.16666666666652" y="49.0" />
+    </edge>
+    <edge source="todolist.ui.button.DeleteButton" target="todolist.ui.ToDoList">
+      <point x="46.75" y="26.0" />
+      <point x="1248.9068627450984" y="240.0" />
+      <point x="1373.875" y="240.0" />
+      <point x="1373.875" y="372.0" />
+      <point x="1261.6985294117646" y="372.0" />
+      <point x="19.82352941176464" y="-72.5" />
+    </edge>
+    <edge source="todolist.ui.panel.AddTaskPanel" target="todolist.ui.ToDoList">
+      <point x="47.75" y="26.0" />
+      <point x="1635.0318627450984" y="138.0" />
+      <point x="1729.0" y="138.0" />
+      <point x="1729.0" y="402.0" />
+      <point x="1321.1691176470588" y="402.0" />
+      <point x="79.29411764705878" y="-72.5" />
+    </edge>
+    <edge source="todolist.ui.panel.ButtonPanel" target="todolist.ui.button.EditButton">
+      <point x="63.0" y="-26.0" />
+      <point x="1073.375" y="270.0" />
+      <point x="1782.25" y="270.0" />
+      <point x="-42.75" y="26.0" />
+    </edge>
+    <edge source="todolist.ui.panel.ButtonPanel" target="todolist.ui.button.OutputButton">
+      <point x="-27.0" y="-26.0" />
+      <point x="983.375" y="240.0" />
+      <point x="759.0" y="240.0" />
+      <point x="47.5" y="26.0" />
+    </edge>
+    <edge source="todolist.main.Main" target="todolist.ui.ToDoList">
+      <point x="0.0" y="-26.0" />
+      <point x="-84.25" y="72.5" />
+    </edge>
+    <edge source="todolist.ui.button.EditButton" target="todolist.ui.ToDoList">
+      <point x="42.75" y="26.0" />
+      <point x="1867.75" y="412.0" />
+      <point x="1340.9926470588234" y="412.0" />
+      <point x="99.11764705882342" y="-72.5" />
+    </edge>
+    <edge source="todolist.ui.panel.ButtonPanel" target="todolist.ui.button.DeleteButton">
+      <point x="9.0" y="-26.0" />
+      <point x="1019.375" y="240.0" />
+      <point x="1155.4068627450984" y="240.0" />
+      <point x="-46.75" y="26.0" />
+    </edge>
+    <edge source="todolist.ui.button.HelpButton" target="todolist.ui.ToDoList">
+      <point x="44.25" y="26.0" />
+      <point x="1674.25" y="392.0" />
+      <point x="1301.3455882352941" y="392.0" />
+      <point x="59.470588235294144" y="-72.5" />
+    </edge>
+    <edge source="todolist.main.Main" target="todolist.ui.util.FileTool">
+      <point x="-51.33333333333326" y="-26.0" />
+      <point x="1106.2916666666667" y="632.0" />
+      <point x="0.0" y="632.0" />
+      <point x="0.0" y="118.0" />
+      <point x="92.61519607843184" y="118.0" />
+      <point x="-119.16666666666652" y="49.0" />
+    </edge>
+    <edge source="todolist.ui.panel.ButtonPanel" target="todolist.ui.button.SearchButton">
+      <point x="81.0" y="-26.0" />
+      <point x="1091.375" y="280.0" />
+      <point x="1989.0" y="280.0" />
+      <point x="-47.0" y="26.0" />
+    </edge>
+    <edge source="todolist.ui.button.ExitButton" target="todolist.ui.ToDoList">
+      <point x="-42.5" y="26.0" />
+      <point x="64.0" y="432.0" />
+      <point x="1103.110294117647" y="432.0" />
+      <point x="-138.76470588235293" y="-72.5" />
+    </edge>
+    <edge source="todolist.ui.button.SaveButton" target="todolist.ui.util.FileTool">
+      <point x="0.0" y="-26.0" />
+      <point x="508.5" y="128.0" />
+      <point x="283.28186274509835" y="128.0" />
+      <point x="71.5" y="49.0" />
+    </edge>
+    <edge source="todolist.ui.panel.SearchPanel" target="todolist.ui.ToDoList">
+      <point x="45.0" y="26.0" />
+      <point x="2242.5318627450984" y="138.0" />
+      <point x="2255.2818627450984" y="138.0" />
+      <point x="2255.2818627450984" y="442.0" />
+      <point x="1400.4632352941176" y="442.0" />
+      <point x="158.58823529411757" y="-72.5" />
+    </edge>
+    <edge source="todolist.ui.ToDoList" target="todolist.ui.util.DragDropRowTableUI">
+      <point x="0.0" y="-72.5" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="todolist.ui.button.ImportButton" target="todolist.ui.util.FileTool">
+      <point x="0.0" y="-26.0" />
+      <point x="306.0" y="138.0" />
+      <point x="235.61519607843184" y="138.0" />
+      <point x="23.833333333333485" y="49.0" />
+    </edge>
+    <edge source="todolist.ui.button.TopButton" target="todolist.ui.ToDoList">
+      <point x="-43.0" y="26.0" />
+      <point x="869.5" y="280.0" />
+      <point x="866.75" y="280.0" />
+      <point x="866.75" y="392.0" />
+      <point x="1182.4044117647059" y="392.0" />
+      <point x="-59.470588235294144" y="-72.5" />
+    </edge>
+    <edge source="todolist.ui.util.FileTool" target="todolist.ui.ToDoList">
+      <point x="-71.5" y="49.0" />
+      <point x="140.28186274509835" y="128.0" />
+      <point x="11.0" y="128.0" />
+      <point x="11.0" y="442.0" />
+      <point x="1083.2867647058824" y="442.0" />
+      <point x="-158.58823529411757" y="-72.5" />
+    </edge>
+    <edge source="todolist.ui.panel.ButtonPanel" target="todolist.ui.button.SaveButton">
+      <point x="-45.0" y="-26.0" />
+      <point x="965.375" y="250.0" />
+      <point x="552.5" y="250.0" />
+      <point x="44.0" y="26.0" />
+    </edge>
+    <edge source="todolist.ui.panel.EditTaskPanel" target="todolist.ui.ToDoList">
+      <point x="52.5" y="26.0" />
+      <point x="2035.0318627450984" y="128.0" />
+      <point x="2140.5" y="128.0" />
+      <point x="2140.5" y="432.0" />
+      <point x="1380.639705882353" y="432.0" />
+      <point x="138.76470588235293" y="-72.5" />
+    </edge>
+    <edge source="todolist.ui.panel.ButtonPanel" target="todolist.ui.ToDoList">
+      <point x="45.0" y="26.0" />
+      <point x="1055.375" y="372.0" />
+      <point x="1222.0514705882354" y="372.0" />
+      <point x="-19.82352941176464" y="-72.5" />
+    </edge>
+    <edge source="todolist.ui.panel.ButtonPanel" target="todolist.ui.button.AddButton">
+      <point x="27.0" y="-26.0" />
+      <point x="1037.375" y="250.0" />
+      <point x="1391.0" y="250.0" />
+      <point x="-43.5" y="26.0" />
+    </edge>
+    <edge source="todolist.ui.button.SaveButton" target="todolist.ui.ToDoList">
+      <point x="-44.0" y="26.0" />
+      <point x="464.5" y="412.0" />
+      <point x="1142.7573529411766" y="412.0" />
+      <point x="-99.11764705882342" y="-72.5" />
+    </edge>
+    <edge source="todolist.ui.button.EditButton" target="todolist.ui.panel.EditTaskPanel">
+      <point x="0.0" y="-26.0" />
+      <point x="1825.0" y="138.0" />
+      <point x="1930.0318627450984" y="138.0" />
+      <point x="-52.5" y="26.0" />
+    </edge>
+    <edge source="todolist.ui.button.OutputButton" target="todolist.ui.ToDoList">
+      <point x="-47.5" y="26.0" />
+      <point x="664.0" y="402.0" />
+      <point x="1162.5808823529412" y="402.0" />
+      <point x="-79.29411764705878" y="-72.5" />
+    </edge>
+    <edge source="todolist.ui.button.AddButton" target="todolist.ui.panel.AddTaskPanel">
+      <point x="0.0" y="-26.0" />
+      <point x="1434.5" y="138.0" />
+      <point x="1539.5318627450984" y="138.0" />
+      <point x="-47.75" y="26.0" />
+    </edge>
+    <edge source="todolist.ui.button.AddButton" target="todolist.ui.ToDoList">
+      <point x="43.5" y="26.0" />
+      <point x="1478.0" y="382.0" />
+      <point x="1281.5220588235295" y="382.0" />
+      <point x="39.647058823529505" y="-72.5" />
+    </edge>
+    <edge source="todolist.ui.panel.ButtonPanel" target="todolist.ui.button.HelpButton">
+      <point x="45.0" y="-26.0" />
+      <point x="1055.375" y="260.0" />
+      <point x="1585.75" y="260.0" />
+      <point x="-44.25" y="26.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="771.0" y="300.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>public</VISIBILITY>
+</Diagram>
+
